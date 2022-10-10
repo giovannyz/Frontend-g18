@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+.alumnos{
+    color: yellow;
+}
+.ejercicios{
+    
+    border: 2px solid purple;
+    border-collapse: collapse;
+    width: 400px;
+}
+th, td{  
+    color: green;
+    text-align: center;
+}
