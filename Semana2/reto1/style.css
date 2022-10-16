@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------HEADER-------------*/
+header{
+    background: #00AF1C;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header ul{
+    display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header ul li:hover{
+    border-bottom: 1px solid;
+    opacity: 0.8;
+}
+
+/*----------*/
+.home{
+    color: #3B06D2;
+}
+.servicios{
+    color: #D206B2;
+
+}
+
+.main{
+    padding: 30px 20px;
+}
+section{
+    margin-bottom: 40px;
+}
+section p{
+    margin: 10px;
+}
+
+section div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+section div figure{
+    margin-left: 15px;
+}
+section div figure img{
+    justify-content: center;
+}
+
+.lista{
+    margin: 20px;
+    font-size: 1.5em;
+}
+.uno{
+    color: #FF0000;
+}
+.dos{
+    color: #1400FF;
+}
+.tres{
+    color:#D79B00;
+}
+.cuatro{
+    color: #03B2B2;
+}
+
+.contacto-formulario{
+    justify-content: center;
+}
+
+.contacto-formulario input{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contacto-formulario button{
+    border: 1px solid #22A900;
+    color: #22A900; 
+    padding: 15px 30px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.contacto-formulario .detalle{
+    padding: 50px;
+}
+
+footer{
+    background-color: #00AF1C;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -29,8 +29,7 @@ header img{
 }
 .btn:hover{
     transform: scale(1.05);
-    transition: 
-     ;
+
 }
 
 .try_btn{
@@ -41,7 +40,9 @@ header img{
     border-radius: calc(35px /2);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-
+.section-one{
+    
+}
 .hero{
     min-height: 100vh;
     background: url(./images/bg-hero-mobile.svg);
@@ -49,8 +50,7 @@ header img{
     background-size:cover;
     background-position: center;
     padding: 70px 1rem 0 1rem;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .u_wrapper{
@@ -74,10 +74,26 @@ header img{
     padding: 0 50px;
     font-weight: 600;
 }
+/*--------SECTION-TWO-----------------*/
 
-
-@media screen and(max-width: 900px){
-    .u_wrapper>div {
-        width: 100%;
-    }
+.section-two{
+    display: flex;
+    box-shadow: 1px 1px 6px #0000004f;
+    border-radius: 10px;
 }
+
+.container-img.two{
+    padding-top: 20px;
+    width: 40%;
+}
+
+.container-letters.parrafo{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+
+
+
+

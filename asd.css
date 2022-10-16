@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.menu{
+    height: 35px;
+    background-color: green;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-inline: 1px solid black;
+}
+
+.menu ul li:hover{
+    color: white;
+}
+
+.content{
+    height: 150px;
+    background-color: bisque;
+    width: 60%;
+    float: left;
+}
+
+
+.barra-lateral{
+    float: left;
+    width: 40%;
+    height: 150px;
+    background-color: aqua;
+}
+.clear{
+    clear: both;
+}
+.pie-pagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
