@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 70px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+}
+.figure-left{
+    margin: 10px;
+    border-left: 50px solid #f0ad4e;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    background-color: #fff;
+    transform: translateX(7px);
+    transition: 1s;
+}
+.figure-right{
+    margin: 10px;
+    border-right:50px solid #f0ad4e;
+    border-bottom: 25px solid transparent;
+    border-top:25px solid transparent;
+    background-color: #fff;
+    transform: translateX(65px);
+    transition: 1s;
+}

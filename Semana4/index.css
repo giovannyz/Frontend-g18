@@ -1,0 +1,9 @@
+@import'./css/variables.css';
+@import'./css/section.css';
+
+.body{
+    background-color: var(--prymary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+}
